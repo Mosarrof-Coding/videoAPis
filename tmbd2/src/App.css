@@ -1,0 +1,122 @@
+/* common css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  background-color: #4d4d4d;
+  color: white;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+  margin: 6px 0;
+}
+a {
+  color: pink;
+  text-decoration: none;
+}
+Link:hover {
+  text-decoration: underline;
+}
+/* common css end */
+
+/* Movies */
+nav {
+  background-color: #636363;
+  padding: 12px 0;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 700;
+}
+.flix {
+  color: rgb(97, 204, 214);
+}
+ul {
+  display: flex;
+  gap: 30px;
+  font-size: 22px;
+  color: rgb(43, 171, 226);
+}
+.reactLogo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+/* hero style  */
+.hero {
+  background: url(./assets/movieBg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+}
+h3 {
+  color: grey;
+  font-size: 22px;
+}
+.searchBar {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 10px;
+  margin: 40px 0;
+}
+.searchBar input {
+  padding: 8px 20px;
+  font-size: 20px;
+  width: 60%;
+  min-width: 320px;
+  background-color: transparent;
+  color: yellowgreen;
+}
+.movieBtn {
+  padding: 8px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: transparent;
+  color: #ffffff;
+}
+/* movie card */
+.movieList {
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.mainmoovie {
+  max-width: 400px;
+  /* background-color: #9e5b5b; */
+}
+.urlsMovie {
+  width: 100%;
+  aspect-ratio: 4/2;
+  object-fit: cover;
+}
+.movieDetails {
+  padding: 10px 0 30px 10px;
+}
+.movieDetails > h4 {
+  margin-bottom: 14px;
+  font-size: 22px;
+  color: yellowgreen;
+  text-decoration: underline;
+}
+.movieDetails > p {
+  margin-bottom: 10px;
+}
